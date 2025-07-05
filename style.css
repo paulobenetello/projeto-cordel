@@ -43,12 +43,12 @@ section{
     margin: 50px 0px;
 }
 section.fundo{
-    background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
     background-size: cover;
     height: 130vh;
     margin: 0px -30px;
     position: relative;
+    box-shadow: inset 3px 4px 13px 0px rgba(0, 0, 0, 0.473);
 }
 section.fundo p{
     display: inline-block;
@@ -58,4 +58,18 @@ section.fundo p{
     padding: 5px;
     position: absolute;
     top: 10%;
+}
+section#img1{
+    background-image: url(imagens/background001.jpg);
+}
+section#img2{
+    background-image: url(imagens/background002.jpg);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 100px;
 }
